@@ -2,9 +2,23 @@
 
 timedatectl set-local-rtc 1
 
+# Configure ubuntu font size
+    sudo apt install -y gnome-tweak-tool
+    Decrease one point for every option
+
 # Configure firefox
 
 Theme dark
 Firefox sync
 Logging bitwarden 
+
+# Create workspaces
+mkdir workspace
+cd workspace
+mkdir personal
+mkdir store1
+
+# Install VSCode from the site
+
+# Install Git
 
