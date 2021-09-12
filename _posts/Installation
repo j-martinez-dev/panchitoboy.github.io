@@ -1,0 +1,10 @@
+# Fix time when dual boot
+
+timedatectl set-local-rtc 1
+
+# Configure firefox
+
+Theme dark
+Firefox sync
+Logging bitwarden 
+
