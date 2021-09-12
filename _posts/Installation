@@ -18,7 +18,15 @@ cd workspace
 mkdir personal
 mkdir store1
 
+# Install common tools
+
+sudo apt-get install -y curl xclip jq
+
 # Install VSCode from the site
+
+# Install docker
+curl -fsSL https://get.docker.com -o get-docker.sh
+sudo sh get-docker.sh
 
 # Install Git
 
